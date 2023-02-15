@@ -13,9 +13,9 @@
 
 <body>
     <header>
-        <input type = "color">
-        <select>
-            <option> ---themes---</option>
+        <input id = "color-selector" type = "color">
+        <select id="scheme-selector">
+            <option> ---Schemes---</option>
             <option>monochrome</option>
             <option>monochrome-dark</option>
             <option>monochrome-light</option>
@@ -25,15 +25,10 @@
             <option>triad</option>
             <option>quad</option>
         </select>
-        <button>Get Color Scheme</button>
+        <button id="color-btn">Get Color Scheme</button>
     </header>
     <main>
-        <div class = color-display>
-            <div class ='col1'></div>
-            <div class ='col2'></div>
-            <div class ='col3'></div>
-            <div class ='col4'></div>
-            <div class ='col5'></div>
+        <div id = color-display>
         </div>
     </main>
 

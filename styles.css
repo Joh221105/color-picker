@@ -6,40 +6,21 @@
 }
 
 
-.color-display{
+#color-display{
     display:flex;
 }
 
-.color-display div{
+#color-display div{
     width: 20%;
     height:100vh;
     border:1px black solid
-}
-
-.col1{
-    background-color: green;
-}
-
-.col2{
-    background-color: blue;
-
-}
-.col3{
-    background-color: red;
-}
-.col4{
-    background-color: yellow;
-}
-
-.col5{
-    background-color: purple;
 }
 
 header {
     padding: 3%;
     display: flex;
     justify-content: space-evenly;
-    background-color: skyblue;
+    background-color: paleturquoise;
 }
 
 input[type ="color"]{
@@ -48,21 +29,31 @@ input[type ="color"]{
     height:3rem;
     margin-right: auto;
     padding: 0;
+    border-radius: 5px;
 }
 
 select{
     margin: 0 auto;
     width:28rem;
-    border-radius: 15px;
+    border-radius: 10px;
     text-align: center;
     font-size: 1.25rem;
     font-weight: 700;
 }
 
 button {
-    border-radius: 15px;
+    border-radius: 10px;
     border: none;
     padding: 1% 2%;
     font-weight: 700;
     font-family: inherit;
+    box-shadow: 0 0 3px black;
+    margin-left: 1%
+}
+
+.hexcode{
+    font-weight: 700;
+    background-color: #c4c4c4;
+    color:black;
+    text-align: center;
 }

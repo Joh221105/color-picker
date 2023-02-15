@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+
+.color-display{
+    display:flex;
+}
+
+.color-display div{
+    width: 20%;
+    height:100vh;
+    border:1px black solid
+}
+
+.col1{
+    background-color: green;
+}
+
+.col2{
+    background-color: blue;
+
+}
+.col3{
+    background-color: red;
+}
+.col4{
+    background-color: yellow;
+}
+
+.col5{
+    background-color: purple;
+}
+
+header {
+    padding: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: skyblue;
+}
+
+input[type ="color"]{
+    border:5px solid #c4c4c4;
+    width:5rem;
+    height:3rem;
+    margin-right: auto;
+    padding: 0;
+}
+
+select{
+    margin: 0 auto;
+    width:28rem;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+button {
+    border-radius: 15px;
+    border: none;
+    padding: 1% 2%;
+    font-weight: 700;
+    font-family: inherit;
+}
